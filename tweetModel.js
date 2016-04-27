@@ -5,7 +5,7 @@ module.exports = Backbone.Model.extend({
   idAttribute: "_id",
   defaults: {
 		author: 'Butters',
-    avatar: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Butters_Stotch.svg',
+    avatar: 'https://thenpbhive.files.wordpress.com/2009/11/sp813_cartmans_incredible_gift.jpg',
 		handle: 'ProfChaos',
 		date: 'Mar 16',
 		content: 'This is a tweet',

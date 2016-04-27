@@ -9,6 +9,10 @@ module.exports =  Backbone.View.extend({
     this.addAll();
     this.listenTo(this.collection, 'update', this.addAll);
   },
+  addNew: function (el) {
+      var modelView = new TweetView({model: el});
+      this.$el.prepend(modelView.render().el);
+  },
   addOne: function (el) {
       var modelView = new TweetView({model: el});
       this.$el.append(modelView.render().el);

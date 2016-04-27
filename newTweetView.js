@@ -15,10 +15,11 @@ module.exports = Backbone.View.extend({
   addTweet: function (event) {
     event.preventDefault();
     console.log("addTweet");
+    console.log("INPUT: " + $('#tweet-content').val());
     this.model.set({
-      content: this.$el.find('input').val(),
+      content: $('#tweet-content').val(),
     });
-    this.$el.find('input').val('');
+    $('#tweet-content').val('');
     this.collection.create(this.model);
     this.model = new TweetModel({});
   },

@@ -31,7 +31,7 @@ module.exports = {
 tweet: [
   '<div class="row">',
     '<div class="avatar">',
-      '<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Butters_Stotch.svg" class="img-rounded" alt="Avatar" width="48" height="48">',
+      '<img src="https://thenpbhive.files.wordpress.com/2009/11/sp813_cartmans_incredible_gift.jpg" class="img-rounded" alt="Avatar" width="48" height="48">',
     '</div>',
     '<div class="tweetails text-left">',
       '<div class="">',
